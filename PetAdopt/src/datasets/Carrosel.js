@@ -1,15 +1,15 @@
 let itens = [
   {
     imagemUrl:
-      'https://images.unsplash.com/photo-1453614512568-c4024d13c247?q=80&w=2664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    titulo: 'Café e Natureza',
-    descricao: 'Tome café sentindo toda a harmonia da natureza!',
+      'https://media.istockphoto.com/id/652776610/pt/foto/cute-golden-retriever-and-tibetan-terrier-in-pet-store.jpg?s=1024x1024&w=is&k=20&c=P1zMoaO32tautUZ3mNM9mMBx6JKTzAnIY-e0_uX8pxY=',
+    titulo: 'PetsJS',
+    descricao: 'Loja!',
   },
   {
     imagemUrl:
-      'https://plus.unsplash.com/premium_photo-1669374537636-518629de3b85?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    titulo: 'Café expresso',
-    descricao: 'Toda a intensidade num copo de café.',
+      'https://https://media.istockphoto.com/id/639321736/pt/foto/this-one-loves-the-groomers.jpg?s=1024x1024&w=is&k=20&c=2207v24U6fJsz3VVTq2BScPhEQOnF-sGhfgVvx6AjLU=',
+    titulo: 'Recepção',
+    descricao: 'Atendimento de qualidade.',
   },
 ];
 
