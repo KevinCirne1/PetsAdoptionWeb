@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+mport PropTypes from 'prop-types';
 import { Table } from 'react-bootstrap';
 
 const ComprasTable = ({ produtos = [] }) => {
@@ -9,7 +9,7 @@ const ComprasTable = ({ produtos = [] }) => {
           <th>Id</th>
           <th>Título</th>
           <th>Descrição</th>
-          <th>Valor</th>
+          <th>Animais para adoção</th>
         </tr>
       </thead>
       <tbody>
@@ -17,9 +17,17 @@ const ComprasTable = ({ produtos = [] }) => {
           return (
             <tr key={produto.id}>
               <td>{produto.id}</td>
+        
               <td>{produto.titulo}</td>
               <td>{produto.descricao}</td>
-              <td>{produto.valor}</td>
+              <td>{produto.animaisparadoacao}</td>
+              <th>
+                <img
+                  
+                  src={produto.imagemUrl}
+                  alt={produto.animaisparadoacao}
+                  style={{ width: '70px', height: 'auto'}}/>
+              </th>
             </tr>
           );
         })}
